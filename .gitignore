@@ -1,0 +1,65 @@
+# ========================
+# Python / Django
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+db.sqlite3
+
+# ========================
+# Environment / Virtualenv
+# ========================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+env_old/
+
+# ========================
+# Django / REST Framework specific
+# ========================
+*.pot
+*.pyc
+*.mo
+staticfiles/
+media/
+local_settings.py
+
+# ========================
+# VSCode / JetBrains IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# System Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Testing / Coverage
+# ========================
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+nosetests.xml
+
+# ========================
+# Migrations (optional)
+# ========================
+# 以下をコメントアウト解除するとマイグレーションも除外されます
+# board/migrations/
+# ただし初回の 0001_initial.py は追跡しておくのが一般的です
