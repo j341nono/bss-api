@@ -14,9 +14,9 @@ Run API
 uv run manage.py runserver
 ```
 
-## API 　仕様
+## API 仕様
 
-| メソッド   | エンドポイント     | 説明             |
+| Method     | EndPoint           | Description      |
 | ---------- | ------------------ | ---------------- |
 | **GET**    | `/api/posts/`      | 投稿一覧を取得   |
 | **GET**    | `/api/posts/{id}/` | 特定の投稿を取得 |
@@ -28,7 +28,7 @@ uv run manage.py runserver
 
 ### Post
 
-| フィールド | 型            | 説明             |
+| Filed      | Type          | Description      |
 | ---------- | ------------- | ---------------- |
 | id         | int           | 投稿 ID（自動）  |
 | title      | CharField     | 投稿タイトル     |
@@ -37,7 +37,7 @@ uv run manage.py runserver
 
 ### コメント
 
-| フィールド | 型               | 説明                |
+| Filed      | Type             | Description         |
 | ---------- | ---------------- | ------------------- |
 | id         | int              | コメント ID（自動） |
 | post       | ForeignKey(Post) | 対応する投稿        |
